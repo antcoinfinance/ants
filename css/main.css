@@ -1043,8 +1043,14 @@ label {
 	min-width: 100vw;
 
 	transform: skewY(-3deg);
-	margin-top: -34px;
+	margin-top: -40px;
 	max-height: 500px;
+}
+@media(min-width: 1000px) {
+	.img-mud {
+		max-height: 700px;
+		margin-top: -45px;
+	}
 }
 .ant-orange{
 	position: absolute;
