@@ -1129,7 +1129,12 @@ label {
 	padding-top: 40px;
 	overflow: hidden;
 	
-		
+	/* background-image: url('../img/ant-orange-45deg.png');
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	background-size: contain;
+	background-position-x: 20%;
+	background-position-y: -100px; 	 */
 }
 
 .hero-inner{
@@ -1243,6 +1248,8 @@ label {
 	max-width: 276px;
 	flex-grow: 1;
 }
+
+
 .feature-inner {
 	display: flex;
 	flex-direction: column;
@@ -1251,6 +1258,14 @@ label {
 	height: 100%;
 	background: #fff;
 	padding: 40px 24px;
+}
+
+.feature-inner:hover {
+	border: 1px solid orange;
+	max-height: 214.4px;
+	/* height: 100px!important; */
+	
+	 /* height: 500px; */
 }
 .feature-inner::before {
 	content: "";
