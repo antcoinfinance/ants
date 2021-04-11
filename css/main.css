@@ -1129,12 +1129,7 @@ label {
 	padding-top: 40px;
 	overflow: hidden;
 	
-	background-image: url('../img/ant-orange-45deg.png');
-	background-repeat: no-repeat, repeat;
-	background-size: cover;
-	background-size: contain;
-	background-position-x: 20%;
-	background-position-y: -100px; 	
+		
 }
 
 .hero-inner{
