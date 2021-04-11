@@ -1530,14 +1530,15 @@ main {
 	letter-spacing: 0px;
 	color: #92a2b1;
 	border-top: 1px solid #e3e7eb;
+	background: linear-gradient(65deg, #F6AB32 -25%, #ED4831 100%);;
 }
 .site-footer a {
-	color: #92a2b1;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 .site-footer a:hover,
 .site-footer a:active {
-	color: #5b6f82;
+	color: #FFFFFF;
 	text-decoration: underline;
 }
 .site-footer-inner {
@@ -1555,6 +1556,7 @@ main {
 	width: 100%;
 	display: inline-flex;
 	justify-content: center;
+	color: white;
 }
 .footer-brand,
 .footer-links,
@@ -1601,4 +1603,13 @@ main {
 .img-rocket {
 	max-height: 320px!important;
 	max-width: 320px!important;
+}
+
+.white {
+	color: white;
+
+}
+
+a {
+	
 }
