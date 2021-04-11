@@ -309,7 +309,7 @@ a {
 	color: inherit;
 	text-decoration: underline;
 }
-a:hover,
+
 a:active {
 	outline: 0;
 	text-decoration: none;
@@ -1277,7 +1277,7 @@ label {
 .feature-inner:hover {
 	max-height: 214.4px;
 	box-shadow: 0 8px 24px rgba(32, 43, 54, 0.25);
-	border: 1px solid orange;
+	border: 1px solid #ED4831 ;
 }
 .feature-inner::before {
 	content: "";
