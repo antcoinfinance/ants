@@ -1043,8 +1043,9 @@ label {
 	min-width: 100vw;
 
 	transform: skewY(-3deg);
-	margin-top: -40px;
+	margin-top: -20px;
 	max-height: 500px;
+	/* position: relative; */
 }
 @media(min-width: 1000px) {
 	.img-mud {
@@ -1086,7 +1087,7 @@ label {
 
 }
 .site-header {
-	position: relative;
+	/* position: relative; */
 	padding: 24px 0;
 	margin-bottom: 54px;
 }
@@ -1096,7 +1097,7 @@ label {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	background: #ED4831;
 	background: linear-gradient(57deg, #F6AB32 0%, #ED4831 100%);
 	-webkit-transform-origin: 0;
@@ -1146,8 +1147,12 @@ label {
 	/* background-image: url('../img/ant-orange-45deg.png');
 	background-repeat: no-repeat, repeat;
 	background-size: cover;
-	background-size: contain;
-	background-position-x: 20%;
+	background-position-x: -75px;
+	background-position-y: -500px;
+	background-size: 1200px; */
+	/* background-position-y: -75%; */
+	/* background-size: contain; */
+	/*background-position-x: 20%;
 	background-position-y: -100px; 	 */
 }
 
