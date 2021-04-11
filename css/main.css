@@ -1020,10 +1020,16 @@ label {
 .button-primary:hover {
 	background: #ED4831;
 	background: linear-gradient(65deg, #F6AB32 -25%, #ED4831 100%);
+	
 }
 .button-secondary {
 	background: #ED4831;
 	/* background: linear-gradient(65deg, #F6AB32 -25%, #ED4831 100%); */
+}
+
+.button-secondary:hover {
+	/* background-color: red; */
+	border: 1px solid white;
 }
 /* .button-secondary:hover {
 	/* background: #f3442d; */
@@ -1261,11 +1267,9 @@ label {
 }
 
 .feature-inner:hover {
-	border: 1px solid orange;
 	max-height: 214.4px;
-	/* height: 100px!important; */
-	
-	 /* height: 500px; */
+	box-shadow: 0 8px 24px rgba(32, 43, 54, 0.25);
+	border: 1px solid orange;
 }
 .feature-inner::before {
 	content: "";
