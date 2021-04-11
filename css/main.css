@@ -1035,7 +1035,7 @@ label {
 .img-mud{
 	max-width: 100vw;
 	min-width: 100vw;
-	/* -webkit-transform: skewY(-3deg); */
+
 	transform: skewY(-3deg);
 	margin-top: -34px;
 	max-height: 500px;
@@ -1140,6 +1140,10 @@ label {
 .hero-inner{
 	position: relative;
 	overflow: hidden;
+}
+.img-size {
+	max-width: 400px!important;
+	max-height: 280px!important;
 }
 
 /* .hero-inner::before {
